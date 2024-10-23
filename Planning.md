@@ -1,326 +1,179 @@
-# Twitter Clone: Parallel Learning Tracks
+### **Comprehensive Plan for Learning Twitter’s Design with System Design and DSA**
 
-## Week 1: Foundation and Core Features
-
-### Day 1: Project Setup
-#### Instructor Cloud Demo (45 min)
-```markdown
-1. Cloud Platform Overview
-   - Console navigation
-   - Project organization
-   - Resource hierarchy
-   - Basic security concepts
-
-2. Infrastructure Setup
-   - VPC configuration
-   - Subnet setup
-   - Firewall rules
-   - IAM basics
-
-3. Development Resources
-   - Database instance creation
-   - Storage bucket setup
-   - Basic monitoring configuration
-```
-
-#### Student Focus
-```markdown
-1. Local Development Setup
-   - Git repository initialization
-   - React project setup
-   - Spring Boot configuration
-   - Database installation
-
-2. Learning Objectives
-   - Understanding project structure
-   - Version control basics
-   - Development workflow
-```
+This plan aligns with your **goal to learn DSA concepts** and incorporates **system design** for scalability, availability, and efficiency, **managed by the instructor**. Below is the **detailed roadmap**, dividing responsibilities between **Instructor demos** (cloud-related), **functional & non-functional objectives**, and **student focus**. 
 
 ---
 
-### Day 2: Authentication
-#### Instructor Cloud Demo (30 min)
-```markdown
-1. Managed Database Demo
-   - Cloud SQL setup
-   - Connection security
-   - High availability configuration
+## **Plan Overview**
 
-2. Security Implementation
-   - SSL/TLS configuration
-   - Encryption setup
-   - Authentication services
-```
+### **Objective:**
+1. **Functional Objectives:**
+   - Build key features of Twitter such as Tweet posting, following/unfollowing, timelines, likes, and search.
+   - Implement efficient data handling using appropriate **data structures**.
+   - Integrate **authentication, caching, and storage** to manage millions of requests effectively.
 
-#### Student Focus
-```markdown
-1. DSA Concepts
-   - Hash Tables for session management
-   - Hash functions for password security
-   - Time complexity of lookups
+2. **Non-functional Objectives:**
+   - Design a **scalable and fault-tolerant** system that ensures availability and low latency.
+   - Implement **client-side load balancing** and **monitoring systems** to optimize performance.
+   - Apply system design principles to ensure **reliability, consistency, and observability**.
 
-2. Implementation Tasks
-   - User registration logic
-   - Login functionality
-   - Session management
-   - Password hashing with BCrypt
+3. **Instructor Demo (Cloud):**
+   - Manage cloud infrastructure with **Google Cloud (BigQuery, Blobstore, Pub-sub)**.
+   - Set up **Redis for caching**, **Kafka for messaging**, and **distributed databases** (SQL, NoSQL).
+   - Demonstrate **client-side load balancing** and **monitoring tools** (e.g., Zipkin, Splunk).
 
-3. Learning Objectives
-   - Understanding hash table operations
-   - Security implementation
-   - Time/space complexity analysis
-```
+4. **Student Focus:**
+   - Learn **DSA concepts** by applying data structures (arrays, linked lists, graphs, etc.) to features.
+   - Build **microservices** to handle Tweet creation, timelines, search, and user relationships.
+   - Implement **APIs** and ensure efficient handling of **read-heavy workloads**.
+   - Perform **load testing, debugging, and optimizations**.
 
 ---
 
-### Day 3: User Profiles
-#### Instructor Cloud Demo (30 min)
-```markdown
-1. Cloud Storage Setup
-   - Bucket configuration
-   - CDN integration
-   - Access control
-   
-2. Media Handling
-   - Image processing
-   - Storage optimization
-   - Backup strategies
-```
-
-#### Student Focus
-```markdown
-1. DSA Concepts
-   - Arrays and Lists for profile data
-   - File handling algorithms
-   - Data serialization
-
-2. Implementation Tasks
-   - Profile CRUD operations
-   - Image upload handling
-   - Data validation
-
-3. Learning Objectives
-   - Array operations
-   - File processing
-   - Data structure selection
-```
+## **Week-by-Week Breakdown**
 
 ---
 
-### Day 4: Tweet Management
-#### Instructor Cloud Demo (35 min)
-```markdown
-1. NoSQL Database Setup
-   - MongoDB Atlas configuration
-   - Replication setup
-   - Indexing strategies
-
-2. Performance Monitoring
-   - Query analysis
-   - Performance metrics
-   - Scaling demonstration
-```
-
-#### Student Focus
-```markdown
-1. DSA Concepts
-   - Linked Lists for tweet chains
-   - Timestamps and ordering
-   - Query optimization
-
-2. Implementation Tasks
-   - Tweet CRUD operations
-   - Timeline data structures
-   - Sorting implementation
-
-3. Learning Objectives
-   - Linked list operations
-   - Time-based ordering
-   - Data retrieval optimization
-```
+### **Week 1: Foundation and Project Setup**
+1. **Objective:**
+   - Set up local development environments with React (Frontend) and Spring Boot (Backend).
+   - Establish coding standards and initialize version control with Git.
+   - Implement **PostgreSQL/MySQL** for relational data storage.
+2. **Instructor Demo:**
+   - Set up a **Google Cloud environment**.
+   - Initialize Redis caching and explain **Pub-sub for messaging**.
+3. **Student Focus:**
+   - Configure Spring Boot to connect with PostgreSQL.
+   - Create React components for **user registration** and **login**.
+4. **DSA Concepts:**
+   - **Hash Tables:** Store **JWTs and user sessions** efficiently.
+   - **Arrays/Lists:** Manage user data collections.
 
 ---
 
-### Day 5: Timeline Implementation
-#### Instructor Cloud Demo (40 min)
-```markdown
-1. Caching Architecture
-   - Redis setup
-   - Cache patterns
-   - Invalidation strategies
-
-2. Scaling Demo
-   - Read replicas
-   - Load distribution
-   - Performance monitoring
-```
-
-#### Student Focus
-```markdown
-1. DSA Concepts
-   - Queues for feed processing
-   - Sorting algorithms
-   - Pagination implementation
-
-2. Implementation Tasks
-   - Feed aggregation
-   - Timeline sorting
-   - Infinite scroll
-
-3. Learning Objectives
-   - Queue operations
-   - Sorting efficiency
-   - Memory management
-```
+### **Week 2: Authentication and User Management**
+1. **Objective:**
+   - Implement **JWT-based authentication** with Spring Security.
+   - Develop basic **user profiles** and **file upload systems**.
+2. **Instructor Demo:**
+   - Demonstrate **Redis cache** usage for authentication.
+   - Show **Google Cloud Blobstore** for storing profile pictures.
+3. **Student Focus:**
+   - Create backend services for **registration, login**, and **profile management**.
+   - Integrate **file uploads** in React with preview functionality.
+4. **DSA Concepts:**
+   - **Hash Tables:** Cache recent users.
+   - **Linked Lists:** Manage sequences of profile updates.
 
 ---
 
-### Day 6: Social Graph
-#### Instructor Cloud Demo (35 min)
-```markdown
-1. Graph Database Options
-   - Neo4j setup
-   - Relationship modeling
-   - Query optimization
-
-2. Data Distribution
-   - Sharding strategies
-   - Consistency patterns
-   - Backup mechanisms
-```
-
-#### Student Focus
-```markdown
-1. DSA Concepts
-   - Graph representation
-   - Adjacency lists/matrices
-   - Traversal algorithms
-
-2. Implementation Tasks
-   - Follow/unfollow logic
-   - Relationship management
-   - Connection suggestions
-
-3. Learning Objectives
-   - Graph operations
-   - BFS/DFS implementation
-   - Relationship optimization
-```
+### **Week 3: Core Features – Tweet Operations and Timelines**
+1. **Objective:**
+   - Implement **CRUD operations** for Tweets.
+   - Develop **home timelines** with pagination or infinite scrolling.
+2. **Instructor Demo:**
+   - Set up **Kafka with Google Pub-sub** for real-time data processing.
+   - Use **BigQuery** for data analytics and reporting.
+3. **Student Focus:**
+   - Build backend services to **post, like, and delete Tweets**.
+   - Implement **frontend timelines** with infinite scroll.
+4. **DSA Concepts:**
+   - **Queues:** Manage timelines with **FIFO logic**.
+   - **Sorting Algorithms:** Order tweets by timestamp efficiently.
 
 ---
 
-### Day 7: Engagement Features
-#### Instructor Cloud Demo (30 min)
-```markdown
-1. Distributed Counters
-   - Atomic operations
-   - Consistency management
-   - Performance monitoring
+### **Week 4: User Relationships and Search Functionality**
+1. **Objective:**
+   - Implement **Follow/Unfollow APIs** and **search functionality**.
+   - Optimize search with **autocomplete** and **filters**.
+2. **Instructor Demo:**
+   - Configure **Elasticsearch or Lucene** for fast text search.
+   - Explain **graph databases (FlockDB)** to manage user relationships.
+3. **Student Focus:**
+   - Build **Follow/Unfollow APIs** and integrate **search bars**.
+   - Optimize queries with **indexes** and use pagination in search.
+4. **DSA Concepts:**
+   - **Graphs:** Model user relationships using **adjacency lists**.
+   - **Binary Search:** Improve search efficiency.
 
-2. Real-time Updates
-   - WebSocket setup
-   - Event handling
-   - State synchronization
-```
+---
 
-#### Student Focus
-```markdown
-1. DSA Concepts
-   - Hash tables for like tracking
-   - Atomic operations
-   - Concurrent updates
+### **Week 5: Caching, Load Balancing, and Monitoring**
+1. **Objective:**
+   - Implement **client-side load balancing** with Redis and load balancers.
+   - Use **caching** to reduce latency for frequently accessed data.
+2. **Instructor Demo:**
+   - Set up **Pelikan cache** and demonstrate load balancing with **P2C (Power of Two Choices)**.
+   - Use **Zipkin** for request tracing and **Splunk** for log analysis.
+3. **Student Focus:**
+   - Build **caching mechanisms** for timeline and tweet data.
+   - Perform load testing and monitor system health.
+4. **DSA Concepts:**
+   - **Hash Tables + Caching:** Implement LRU cache.
+   - **Graphs + Load Balancing:** Distribute user sessions fairly.
 
-2. Implementation Tasks
-   - Like functionality
-   - Counter management
-   - Concurrency handling
+---
 
-3. Learning Objectives
-   - Concurrent operations
-   - Data consistency
-   - Race condition prevention
-```
+### **Week 6: Scaling and Optimization**
+1. **Objective:**
+   - Scale the system to handle **heavy traffic** (e.g., New Year’s Eve surge).
+   - Optimize **databases and caching strategies**.
+2. **Instructor Demo:**
+   - Implement **sharded counters** for Top-K problems (e.g., trending hashtags).
+   - Use **consistent hashing** for scaling load balancing.
+3. **Student Focus:**
+   - Implement **sharded counters** to manage high-volume interactions.
+   - Optimize **database queries** and **cache refresh intervals**.
+4. **DSA Concepts:**
+   - **Sharded Counters:** Solve **Top-K problems** (Trending topics).
+   - **Consistent Hashing:** Ensure load balancing scalability.
 
-## Week 2: Advanced Features and Production
+---
 
-### Day 8: Optimization
-#### Instructor Cloud Demo (45 min)
-```markdown
-1. Monitoring Setup
-   - APM configuration
-   - Metrics collection
-   - Dashboard creation
+### **Week 7: Testing, Debugging, and Deployment**
+1. **Objective:**
+   - Conduct **unit, integration, and load testing**.
+   - Deploy the application to **Google Cloud**.
+2. **Instructor Demo:**
+   - Demonstrate **CI/CD pipelines** with **GitHub Actions**.
+   - Show how to deploy microservices using **Kubernetes or Docker**.
+3. **Student Focus:**
+   - Write **test cases** for API endpoints and frontend components.
+   - Set up **monitoring alerts** for failed nodes and traffic surges.
+4. **DSA Concepts:**
+   - **Big O Notation:** Analyze time complexity of operations.
+   - **Queues:** Monitor traffic queues during load tests.
 
-2. Performance Analysis
-   - Resource monitoring
-   - Cost optimization
-   - Scaling strategies
-```
+---
 
-#### Student Focus
-```markdown
-1. DSA Concepts
-   - Algorithm analysis
-   - Space complexity
-   - Time complexity
+### **Week 8: Final Review and Project Wrap-up**
+1. **Objective:**
+   - Review the **entire system design and DSA implementation**.
+   - Ensure code quality with **peer reviews and refactoring**.
+2. **Instructor Demo:**
+   - Walk through the **system design architecture** and **real-world trade-offs**.
+3. **Student Focus:**
+   - Document the project, submit final code, and present learnings.
+4. **DSA Concepts:**
+   - **Graphs + Caching + Sharding:** Review key concepts and their applications.
 
-2. Implementation Tasks
-   - Code optimization
-   - Performance tuning
-   - Memory management
+---
 
-3. Learning Objectives
-   - Big O notation
-   - Resource optimization
-   - Performance analysis
-```
+## **Summary of DSA Topics Covered**
 
-[Days 9-14 follow similar pattern with respective focus areas]
+| **Data Structure**    | **Use Case**                                      |
+|-----------------------|---------------------------------------------------|
+| **Hash Tables**       | JWT authentication, caching, and session storage  |
+| **Arrays/Lists**      | User data, tweets, and profile updates            |
+| **Linked Lists**      | CRUD operations for tweets                        |
+| **Graphs**            | User relationships (follow/unfollow)              |
+| **Queues**            | Timeline management and load balancing            |
+| **Binary Search**     | Optimized search queries                          |
+| **Sorting Algorithms**| Ordering tweets by timestamp                      |
+| **Sharded Counters**  | Top-K trending topics and hashtags                |
+| **Consistent Hashing**| Load balancing across servers                     |
 
-## Key Learning Outcomes
+---
 
-### For Students
-1. **DSA Mastery**
-   - Practical implementation of data structures
-   - Algorithm optimization
-   - Performance analysis
-   - Problem-solving skills
-
-2. **Technical Skills**
-   - Full-stack development
-   - Database management
-   - API design
-   - Testing methodologies
-
-3. **Best Practices**
-   - Code organization
-   - Error handling
-   - Documentation
-   - Version control
-
-### For Instructors
-1. **Demo Preparation**
-   - Pre-configured environments
-   - Backup demonstrations
-   - Example configurations
-   - Troubleshooting guides
-
-2. **Teaching Points**
-   - Real-world applications
-   - Industry best practices
-   - Common pitfalls
-   - Performance considerations
-
-## Assessment Criteria
-1. **DSA Understanding**
-   - Implementation correctness
-   - Algorithm efficiency
-   - Code optimization
-   - Problem-solving approach
-
-2. **Project Completion**
-   - Feature implementation
-   - Code quality
-   - Documentation
-   - Testing coverage
+This plan integrates **system design principles** with **DSA learning** through practical coding. Would you like to start with **Week 1 (Setup)**, or dive deeper into a specific DSA topic like **Graphs or Queues**?
