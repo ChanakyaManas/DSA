@@ -220,10 +220,5 @@ This plan ensures that students can **work independently in a local setup**, whi
 | **Consistent Hashing**  | Load balancing and scaling                     |
 
 ---
-
-## **Conclusion**
-
-This plan ensures students can work independently with **local tools and infrastructure**, while the instructor demos the **same code in cloud environments**. The approach offers a seamless experience, enabling students to **master DSA concepts** while building a **scalable and robust application**. 
-
-Let me know if you need **setup instructions or code templates** for any of the tools mentioned!
+if you need **setup instructions or code templates** for any of the tools mentioned!
 ```
