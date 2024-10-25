@@ -97,6 +97,14 @@ In order to distribute assignments and receive submissions effectively, follow t
 
 3. **Commit Message Must Include All Contributors:**
    - The PR should contain a commit message that includes the names of **all team members** who contributed to the assignment. This ensures proper attribution for the work.
+     ```git
+     git commit -m "Completed Assignment by Team Alpha
+     Contributors:
+      - John Doe <john.doe@example.com>
+      - Jane Smith <jane.smith@example.com>
+      - Alice Johnson <alice.johnson@example.com>"
+     ```
+
 
 4. **Weekly Rotation of Team Leads:**
    - Every week, the role of **Team Lead** should rotate among the team members. The team lead will be responsible for overseeing the assignment, ensuring its quality, and raising the PR for the week.
