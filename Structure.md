@@ -23,7 +23,7 @@ In a class of members, the team is divided dynamically as follows:
 ## Scrum Meetings
 
 ### Schedule:
-- Scrum meetings will be held on **Everyday** each week at **11:30 AM**.
+- Scrum meetings will be held on **Everyday**  at **11:30 AM**.
 - Attendance is **mandatory** for all team members.
 
 ### Purpose:
