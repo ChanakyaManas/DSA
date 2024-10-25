@@ -36,7 +36,12 @@ In a class of members, the team is divided dynamically as follows:
 - Team members are expected to be prepared and ready to discuss their work in detail.
 
 ---
+## Weekly Rotation of Team Leads
 
+- Each week, a different member from the team will take on the role of **Team Lead (TL)**.
+- This rotation will ensure that all members gain experience in leadership and collaboration.
+- The schedule for the Team Lead rotation will be determined at the beginning of each cycle, allowing team members to prepare for their responsibilities.
+---
 ## Team Lead Responsibilities
 
 - Each team has a **Team Lead (TL)** who is responsible for:
