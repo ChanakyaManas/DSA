@@ -97,7 +97,7 @@ In order to distribute assignments and receive submissions effectively, follow t
 
 3. **Commit Message Must Include All Contributors:**
    - The PR should contain a commit message that includes the names of **all team members** who contributed to the assignment. This ensures proper attribution for the work.
-     ```git
+     ```bash
      git commit -m "Completed Assignment by Team Alpha
      Contributors:
       - John Doe <john.doe@example.com>
